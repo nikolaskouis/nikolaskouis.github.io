@@ -1,7 +1,161 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<title>Nikolas Kouis</title>
+<meta charset="UTF-8">
+<link rel="icon" href="Images/Ritualist%20logo.png">
+<script src="https://kit.fontawesome.com/a4e52bdf01.js" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body  style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="./Images/Ritualist%20logo.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Nikolaos Kouis</b></h4>
+    <p class="w3-text-grey">Portfolio</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/nikolaskouis" class="fa fa-brands fa-github" style="font-size: 30px; text-decoration: none;"></a>
+    <a href="https://gamejolt.com/@EditZz" class="fa fa-solid fa-gamepad" style="font-size: 30px; text-decoration: none;"></a>
+    <a href="https://editzz.itch.io" class="fa fa-brands fa-itch-io" style="font-size: 30px; text-decoration: none;"></a>
+    <a href="https://www.linkedin.com/in/nikolas-kouis-041568229/" class="fa fa-linkedin" style="font-size: 30px; text-decoration: none;"></a></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="./Images/Ritualist%20logo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://gamejolt.com/games/The-Loop-Ouroboros/617257"><img src="./Images/The Loop.jpg" alt="The Loop Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>The Loop: Ouroboros</b></p>
+        <p>The Loop: Ouroboros is a "PT Styled" Indie Horror Game. You need to investigate the mysterious death of a family that used to live in a creepy house in the mountains. By the time you enter the house you realize that something is wrong and something dark is watching you. Every step you take is different and you need to "break" the loop to get free. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://gamejolt.com/games/EscapeTheDarkness/686240"><img src="./Images/EscapeTheDarkness.png"  alt="Escape The Darkness Picture" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Escape The Darkness - GGJ2022</b></p>
+        <p>Escape the darkness is a first person horror/thriller game involving a person trying to defeat a monster while trapped in a laminal space with eerie realities. The game follows the main theme of duality in that it is a symbolization of the Abject, a feeling incurred by treading on a plane between two conceptual borders. For this reason the game occurs in an abandoned hospital maze with repetitive rooms/paths that are never quite the same and involve a character who caries a flashlight in a well lit room while chanting Latin prayers to electric switches.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="https://gamejolt.com/games/ritualist/688874"><img src="./Images/Ritualist.png" alt="Ritualist Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Ritualist</b></p>
+        <p><b>Work In Progress</b></p>
+        <p>You are ritualist that needs to finish a ritual in an abandoned graveyard. Getting trapped with an active corpse-demon and escaping alive is not an easy task, but you have enough experience to stay alive in situations like these...
+
+          Find the parts, collect them, finish the ritual and get away from there. You are not safe until you collect the offering part after the ritual, so be careful!</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://gamejolt.com/games/EscapeTheDarkness/686240"><img src="./Images/hangman.png" alt="Hangman Terminal Picture" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Hangman - C++ Assignment</b></p>
+        <p>This is a C++ assignment that I had to do for CE221 ( C++ Programming). For this assignment we had to create a hangman game. The word was selected randomly from a file. It had 3 difficulties, login system for managers and players, scoring system and tips for the player if they are close to death.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://github.com/nikolaskouis/Mars-JavaOOP"><img src="./Images/marsLarge.png" alt="Mars Projection Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Mars Projection - Java OOP Assignment</b></p>
+        <p>This project is an assignment I had to do for CE152 ( Java Object Oriented Programming ) Assignment 2. Create a simple rocket system, crew system, Mars Data plotting/drawing and Solar System animation.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="https://gamejolt.com/games/EscapeTheDarkness/686240"><img src="./Images/Brackeys.png" alt="EscapeTheDarkness" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Brackeys Game Jam 2022</b></p>
+        <p><b>Work In Progress</b></p>
+        <p>Did not start the even yet.</p>
+      </div>
+    </div>
+  </div>
+  <header id="about">
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Born in Cyprus, 20 years old computer enthusiast. Programming, Game Development and Graphic Design with experience from the age of 13. Worked in a company and designed a professional website in the age of 15. Active person with passion in Drumming and Music. Fluent in Greek and English, very skilled on communicating and developing relationships in workplace. My goal is to work in huge projects in big companies and create life-changing video games.</p>
+    <hr>
+  </div>
+  </header>
+  <header id="contact" class="contact">
+    <h4 style="font-weight: bold; text-align: center; font-size:45px; color: black;">Contact</h4>
+    <!-- Progress bars / Skills -->
+    <div style="text-align: center; background: #e8e8e8; color: black;">
+      <div style="font-weight: bold; font-size:25px;">
+      <p>Email</p>
+      </div>
+      <a href="Kouis16cy@gmail.com" title="W3.CSS" target="_blank" class="w3-hover-opacity">Kouis16cy@gmail.com</a><br>
+      <div style="font-weight: bold; font-size:25px;">
+      <p>Work Links</p>
+      </div>
+      <a href="https://github.com/nikolaskouis" title="W3.CSS" target="_blank" class="w3-hover-opacity">My Github Account</a><br>
+      <a href="https://gamejolt.com/@EditZz" title="W3.CSS" target="_blank" class="w3-hover-opacity">My GameJolt Account</a><br>
+      <a href="https://editzz.itch.io" title="W3.CSS" target="_blank" class="w3-hover-opacity">My Itch.io Account</a><br>
+      <div style="font-weight: bold; font-size:25px;">
+      <p>Discord :</p>
+      </div>
+      <p>EditZz#8967</p>
+      <br/>
+    </div>
+    <div style="font-weight: bold; text-align: center; color: black;">
+      <p>
+        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom"><i class="fa fa-download w3-margin-right"></i><a href="CV-Nikolaos Kouis.pdf" download="CV-Nikolaos Kouis">Download Resume</a>
+        </button>
+      </p>
+
+
+  <div style="background: #3e3e3e;" class="w3-center w3-padding-24">Template by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a><p>--Work in progress--</p></div>
+<!-- End page content -->
+</div>
+
+</header>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
 </body>
 </html>
