@@ -149,7 +149,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
     <div style="font-weight: bold; text-align: center; color: black;">
       <p>
-        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom"><i class="fa fa-download w3-margin-right"></i><a href="Resume-Nikolas Kouis.pdf" download="CV-Nikolaos Kouis">Download Resume</a>
+        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom"><i class="fa fa-download w3-margin-right"></i><a href="CV-Nikolaos Kouis.pdf" download="CV-Nikolaos Kouis">Download Resume</a>
         </button>
       </p>
 
