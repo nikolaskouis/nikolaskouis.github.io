@@ -2,7 +2,7 @@
 <html>
 <title>Nikolas Kouis</title>
 <meta charset="UTF-8">
-<link rel="icon" href="Images/Ritualist%20logo.png">
+<link rel="icon" href="Images/profile.jpg">
 <script src="https://kit.fontawesome.com/a4e52bdf01.js" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -55,14 +55,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/The-Loop-Ouroboros/617257"><img src="./Images/The Loop.jpg" alt="The Loop Image" style="width:100%" class="w3-hover-opacity"></a>
+      <a href="https://gamejolt.com/games/The-Loop-Ouroboros/617257" target="_blank"><img src="./Images/The Loop.jpg" alt="The Loop Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>The Loop: Ouroboros</b></h4>
         <p>The Loop: Ouroboros is a "PT Styled" Indie Horror Game. You need to investigate the mysterious death of a family that used to live in a creepy house in the mountains. By the time you enter the house you realize that something is wrong and something dark is watching you. Every step you take is different and you need to "break" the loop to get free. </p>
       </div>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/EscapeTheDarkness/686240"><img src="./Images/EscapeTheDarkness.png"  alt="Escape The Darkness Picture" style="width:100%" class="w3-hover-opacity"></a>
+      <a href="https://gamejolt.com/games/EscapeTheDarkness/686240" target="_blank"><img src="./Images/EscapeTheDarkness.png"  alt="Escape The Darkness Picture" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>Escape The Darkness</b></h4>
         <p><b>Global Game Jam 2022</b></p>
@@ -70,7 +70,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
     <div class="w3-third w3-container">
-      <a href="https://editzz.itch.io/phobos"><img src="./Images/Phobos.jpg" alt="Phobos VR" style="width:100%" class="w3-hover-opacity"></a>
+      <a href="https://editzz.itch.io/phobos" target="_blank"><img src="./Images/Phobos.jpg" alt="Phobos VR" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>Phobos VR</b></h4>
         <p><b>Brackeys Game Jam 2022</b></p>
@@ -84,7 +84,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
   <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://simmer.io/@EditZz/upside-down"><img src="./Images/UpsideDown.jpg" alt="The Upside Down Image" style="width:100%" class="w3-hover-opacity"></a>
+      <a href="https://simmer.io/@EditZz/upside-down" target="_blank"><img src="./Images/UpsideDown.jpg" alt="The Upside Down Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>The Upside Down</b></h4>
 		<p><b>Amdocs Hackathon 2022</b></p>
@@ -95,7 +95,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 	  </div>
     </div>
 	<div class="w3-third w3-container">
-      <a href="https://gamejolt.com/games/ritualist/688874"><img src="./Images/Ritualist.png" alt="Ritualist Image" style="width:100%" class="w3-hover-opacity"></a>
+      <a href="https://gamejolt.com/games/ritualist/688874" target="_blank"><img src="./Images/Ritualist.png" alt="Ritualist Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>Ritualist</b></h4>
         <p><b>Work In Progress</b></p>
@@ -105,7 +105,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
 	<div class="w3-third w3-container">
-      <a href="https://play.google.com/store/apps/details?id=com.NikolasKouis.SurveillanceJob"><img src="./Images/SurveillanceJob.jpg" alt="Surveillance Job Image" style="width:100%" class="w3-hover-opacity"></a>
+      <a href="https://play.google.com/store/apps/details?id=com.NikolasKouis.SurveillanceJob" target="_blank"><img src="./Images/SurveillanceJob.jpg" alt="Surveillance Job Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>Surveillance Job</b></h4>
         <p><b>Android Game</b></p>
