@@ -84,6 +84,37 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
   <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://gamejolt.com/games/hyperborea/784923" target="_blank"><img src="./Images/Hyperborea.jpg" alt="Hyperborea Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Hyperborea</b></h4>
+		<p><b>Global Game Jam 2023</b></p>
+		<p><b>Roguelike Firstperson Shooter</b></p>
+		<p>This is a Global Game Jam 2023 game. It is a First-Person Shooter game. You start in a randomly generated world with different rooms and each room has enemies and chests. You need to defeat the enemies to unlock the chests. Each chest gives you perks,weapons or gold, that makes you stronger.</p>
+	  </div>
+    </div>
+	<div class="w3-third w3-container">
+      <img src="./Images/HousescaleVR.gif" alt="HousescaleVR GIF" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <h4><b>Homescale VR</b></h4>
+        <p><b>Capstone Project - Dissertation  University Project</b></p>
+		<p><b>Work In Progress</b></p>
+        <p>House Scale VR is a software that gives a more realistic experience to the user, by calculating the obstacles the have in the real world, and transform them into the game.</br>
+		Using the Passthrough feature of Oculus Quest's 2, the software allows you to see the room you are in, and let you mark the obstacles around your room as in-game objects. Later the game-area is generated and your real life obstacles become in-game objects.</p>
+      </div>
+    </div>
+	<div class="w3-third w3-container">
+      <a target="_blank"><img src="./Images/WorkInProgress.jpeg" alt="Work In Progress Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Avatar Creation VR</b></h4>
+        <p><b>University of Essex VR Project</b></p>
+        <p>I have been hired by the University of Essex Frontrunners to create an Avatar Creation VR project with Unity. With the supervision of Katerina Bourazeri, as the Lead Developer, I need to create a VR environment for kids to be able to create avatars of themselves.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding">
+  <div class="w3-third w3-container w3-margin-bottom">
       <a href="https://simmer.io/@EditZz/upside-down" target="_blank"><img src="./Images/UpsideDown.jpg" alt="The Upside Down Image" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>The Upside Down</b></h4>
@@ -115,6 +146,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       </div>
     </div>
   </div>
+  
   <div class="w3-row-padding">
     <div class="w3-third w3-container w3-margin-bottom">
       <a href="https://gamejolt.com/games/Ghost_Hunting/753673" target="_blank"><img src="./Images/GhostHunting.JPG" alt="Ghost Hunting Image" style="width:100%" class="w3-hover-opacity"></a>
@@ -150,6 +182,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       3 Years’ experience in C#.
       3 Years’ experience in Unity.
       8 Video Game Projects in Unity.
+	  2 VR Projects made with Unity.
       1 Video Game Project in Unreal
       Engine.
       2 Years’ experience in C++.
@@ -157,14 +190,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       React-JS and .Net-C# in the industry.
       Experience 3 months (Internship) using
       Jira and Azure.
-      Active person with passion in
-      Drumming and Music.
       Fluent in Greek and English, very skilled
       at communicating and developing
       relationships in the workplace.
       My goal is to work on large projects at
       local and/or international companies
-      and create.</p>
+      and create life-changing video games.</p>
     <hr>
   </div>
   </header>
