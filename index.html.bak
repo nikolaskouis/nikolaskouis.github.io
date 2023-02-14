@@ -69,7 +69,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
         <p>Escape the darkness is a first person horror/thriller game involving a person trying to defeat a monster while trapped in a laminal space with eerie realities. The game follows the main theme of duality in that it is a symbolization of the Abject, a feeling incurred by treading on a plane between two conceptual borders. For this reason the game occurs in an abandoned hospital maze with repetitive rooms/paths that are never quite the same and involve a character who caries a flashlight in a well lit room while chanting Latin prayers to electric switches.</p>
       </div>
     </div>
-    <div class="w3-third w3-container">
+	<div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://gamejolt.com/games/hyperborea/784923" target="_blank"><img src="./Images/Hyperborea.jpg" alt="Hyperborea Image" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <h4><b>Hyperborea</b></h4>
+		<p><b>Global Game Jam 2023</b></p>
+		<p><b>Roguelike Firstperson Shooter</b></p>
+		<p>This is a Global Game Jam 2023 game. It is a First-Person Shooter game. You start in a randomly generated world with different rooms and each room has enemies and chests. You need to defeat the enemies to unlock the chests. Each chest gives you perks,weapons or gold, that makes you stronger.</p>
+	  </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+	<div class="w3-third w3-container">
       <a href="https://editzz.itch.io/phobos" target="_blank"><img src="./Images/Phobos.jpg" alt="Phobos VR" style="width:100%" class="w3-hover-opacity"></a>
       <div class="w3-container w3-white">
         <h4><b>Phobos VR</b></h4>
@@ -78,19 +91,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
         <br>Horror; Between reality and fiction.</p>
       </div>
-    </div>
-  </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-  <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/hyperborea/784923" target="_blank"><img src="./Images/Hyperborea.jpg" alt="Hyperborea Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Hyperborea</b></h4>
-		<p><b>Global Game Jam 2023</b></p>
-		<p><b>Roguelike Firstperson Shooter</b></p>
-		<p>This is a Global Game Jam 2023 game. It is a First-Person Shooter game. You start in a randomly generated world with different rooms and each room has enemies and chests. You need to defeat the enemies to unlock the chests. Each chest gives you perks,weapons or gold, that makes you stronger.</p>
-	  </div>
     </div>
 	<div class="w3-third w3-container">
       <img src="./Images/HousescaleVR.gif" alt="HousescaleVR GIF" style="width:100%" class="w3-hover-opacity">
