@@ -9,240 +9,469 @@
 <link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-</style>
-<body  style="max-width:1600px">
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-  <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-      <i class="fa fa-remove"></i>
+<header>
+  <link rel="icon" href="Images/profile.jpg"/>
+  <div class="header-container">
+    <h1>Nikolas Kouis</h1>
+    <p class="tagline">Software Developer | Azure | React | .Net | Unity</p>
+    <a href="./Nikolas Kouis - CV.pdf" target="_blank" download="CV-Nikolaos Kouis" title="Download my CV">
+      <h4>Download my CV</h4>
     </a>
-    <img src="./Images/profile.jpg" style="width:45%;" class="w3-round"><br><br>
-    <h4><b>Nikolaos Kouis</b></h4>
-    <p class="w3-text-grey">Portfolio</p>
   </div>
-  <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
-  </div>
-  <div class="w3-panel w3-large">
-    <a href="https://github.com/nikolaskouis" class="fa fa-brands fa-github" style="font-size: 30px; text-decoration: none;"></a>
-    <a href="https://gamejolt.com/@EditZz" class="fa fa-solid fa-gamepad" style="font-size: 30px; text-decoration: none;"></a>
-    <a href="https://editzz.itch.io" class="fa fa-brands fa-itch-io" style="font-size: 30px; text-decoration: none;"></a>
-    <a href="https://www.linkedin.com/in/nikolas-kouis-041568229/" class="fa fa-linkedin" style="font-size: 30px; text-decoration: none;"></a></i>
-  </div>
-</nav>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-
-  <!-- Header -->
-  <header id="portfolio">
-    <a href="#"><img src="./Images/Ritualist%20logo.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <div class="w3-container">
-    <h1><b>My Portfolio</b></h1>
-    </div>
-  </header>
-  
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/The-Loop-Ouroboros/617257" target="_blank"><img src="./Images/The Loop.jpg" alt="The Loop Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>The Loop: Ouroboros</b></h4>
-        <p>The Loop: Ouroboros is a "PT Styled" Indie Horror Game. You need to investigate the mysterious death of a family that used to live in a creepy house in the mountains. By the time you enter the house you realize that something is wrong and something dark is watching you. Every step you take is different and you need to "break" the loop to get free. </p>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/EscapeTheDarkness/686240" target="_blank"><img src="./Images/EscapeTheDarkness.png"  alt="Escape The Darkness Picture" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Escape The Darkness</b></h4>
-        <p><b>Global Game Jam 2022</b></p>
-        <p>Escape the darkness is a first person horror/thriller game involving a person trying to defeat a monster while trapped in a laminal space with eerie realities. The game follows the main theme of duality in that it is a symbolization of the Abject, a feeling incurred by treading on a plane between two conceptual borders. For this reason the game occurs in an abandoned hospital maze with repetitive rooms/paths that are never quite the same and involve a character who caries a flashlight in a well lit room while chanting Latin prayers to electric switches.</p>
-      </div>
-    </div>
-	<div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/hyperborea/784923" target="_blank"><img src="./Images/Hyperborea.JPG" alt="Hyperborea Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Hyperborea</b></h4>
-		<p><b>Global Game Jam 2023</b></p>
-		<p><b>Roguelike Firstperson Shooter</b></p>
-		<p>This is a Global Game Jam 2023 game. It is a First-Person Shooter game. You start in a randomly generated world with different rooms and each room has enemies and chests. You need to defeat the enemies to unlock the chests. Each chest gives you perks,weapons or gold, that makes you stronger.</p>
-	  </div>
-    </div>
-  </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-	<div class="w3-third w3-container">
-      <a href="https://editzz.itch.io/phobos" target="_blank"><img src="./Images/Phobos.jpg" alt="Phobos VR" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Phobos VR</b></h4>
-        <p><b>Brackeys Game Jam 2022</b></p>
-        <p>"This is not real"; Our game experiences the theme to its utmost by throwing the player into what is almost a state of delirious struggle for survival. The player is expected to be in the game comparing how much it has in common to reality visually as it behaves in a physically and mechanically surreal way.
-        <br>Horror; Between reality and fiction.</p>
-      </div>
-    </div>
-	<div class="w3-third w3-container">
-      <img src="./Images/HousescaleVR.gif" alt="HousescaleVR GIF" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <h4><b>Homescale VR</b></h4>
-        <p><b>Capstone Project - Dissertation  University Project</b></p>
-		<p><b>Work In Progress</b></p>
-        <p>House Scale VR is a software that gives a more realistic experience to the user, by calculating the obstacles they have in the real world, and transform them into the game.</br>
-		Using the Passthrough feature of Oculus Quest's 2, the software allows you to see the room you are in, and let you mark the obstacles around your room as in-game objects. Later the game-area is generated and your real life obstacles become in-game objects.</p>
-      </div>
-    </div>
-	<div class="w3-third w3-container">
-      <a target="_blank"><img src="./Images/WorkInProgress.jpeg" alt="Work In Progress Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Avatar Creation VR</b></h4>
-        <p><b>University of Essex VR Project</b></p>
-        <p>I have been hired by the University of Essex Frontrunners to create an Avatar Creation VR project with Unity. With the supervision of Katerina Bourazeri, as the Lead Developer, I need to create a VR environment for kids to be able to create avatars of themselves.</p>
-      </div>
-    </div>
-  </div>
-  
-  <!-- Third Photo Grid-->
-  <div class="w3-row-padding">
-  <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://simmer.io/@EditZz/upside-down" target="_blank"><img src="./Images/UpsideDown.jpg" alt="The Upside Down Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>The Upside Down</b></h4>
-		<p><b>Amdocs Hackathon 2022</b></p>
-		<p><b>Web Based Game - Platform Game</b></p>
-		<p>In the game’s universe, the Alien World collides with the Human World and merges into a mysterious Mirror Dimension.
-		Going through a platform/puzzle system, the protagonist has to survive the Alien invasion and
-		close the portal leading to the human world.</p>
-	  </div>
-    </div>
-	<div class="w3-third w3-container">
-      <a href="https://gamejolt.com/games/ritualist/688874" target="_blank"><img src="./Images/Ritualist.png" alt="Ritualist Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Ritualist</b></h4>
-        <p><b>Work In Progress</b></p>
-        <p>You are ritualist that needs to finish a ritual in an abandoned graveyard. Getting trapped with an active corpse-demon and escaping alive is not an easy task, but you have enough experience to stay alive in situations like these...
-
-          Find the parts, collect them, finish the ritual and get away from there. You are not safe until you collect the offering part after the ritual, so be careful!</p>
-      </div>
-    </div>
-	<div class="w3-third w3-container">
-      <a href="https://play.google.com/store/apps/details?id=com.NikolasKouis.SurveillanceJob" target="_blank"><img src="./Images/SurveillanceJob.jpg" alt="Surveillance Job Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Surveillance Job</b></h4>
-        <p><b>Android Game</b></p>
-        <p>Monitoring haunted houses as a Ghost Possession Investigator, your task is to figure out if a ghost is possessing each room you are monitoring or not.
-		Things are not what they seem. The room is changing due to Ghost Possessions and you need to report these changes correctly, if you fail to do so, you die.
-		You need to pay full attention to your job and survive until 06:00, while maintaining your sanity and making sure you report possessions fast enough.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <a href="https://gamejolt.com/games/Ghost_Hunting/753673" target="_blank"><img src="./Images/GhostHunting.JPG" alt="Ghost Hunting Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Ghost Hunting</b></h4>
-        <p><b>Essex Game Development Society Winner 2022</b></p>
-        <p>Ghost Hunting is a first-person psychological horror where you are a paranormal investigator that need to enter haunted locations filled with paranormal activity and gather as much evidence of the paranormal as you can. You will use your ghost hunting equipment to search for and record evidence of whatever ghost is haunting the location to sell onto a ghost removal team.</p>
-      </div>
-    </div>
-	<div class="w3-third w3-container w3-margin-bottom">
-      <img src="./Images/hangman.PNG" alt="Hangman Terminal Picture" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Hangman - C++ Assignment</b></h4>
-        <p>This is a C++ assignment that I had to do for CE221 ( C++ Programming). For this assignment we had to create a hangman game. The word was selected randomly from a file. It had 3 difficulties, login system for managers and players, scoring system and tips for the player if they are close to death.</p>
-		<p>Unfortunately, I cannot share the code in public to university policy.</p>
-	  </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="./Images/marsLarge.PNG" alt="Mars Projection Image" style="width:100%" class="w3-hover-opacity"></a>
-      <div class="w3-container w3-white">
-        <h4><b>Mars Projection - Java OOP Assignment</b></h4>
-        <p>This project is an assignment I had to do for CE152 ( Java Object Oriented Programming ) Assignment 2. Create a simple rocket system, crew system, Mars Data plotting/drawing and Solar System animation.</p>
-		<p>Unfortunately, I cannot share the code in the public, due University Policy.</p>
-	  </div>
-    </div>
-  </div>
-  <header id="about">
-  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-    <h4 style="font-weight: bold; text-align: center; font-size:45px; color: black;"><b>About Me</b></h4>
-    <p>Born in Cyprus, 21 years old computer
-      enthusiast.
-      3 Years’ experience in Java.
-      3 Years’ experience in C#.
-      3 Years’ experience in Unity.
-      8 Video Game Projects in Unity.
-	  2 VR Projects made with Unity.
-      1 Video Game Project in Unreal
-      Engine.
-      2 Years’ experience in C++.
-      Experience 3 months (Internship) using
-      React-JS and .Net-C# in the industry.
-      Experience 3 months (Internship) using
-      Jira and Azure.
-      Fluent in Greek and English, very skilled
-      at communicating and developing
-      relationships in the workplace.
-      My goal is to work on large projects at
-      local and/or international companies
-      and create life-changing video games.</p>
-    <hr>
-  </div>
-  </header>
-  <header id="contact" class="contact">
-    <h4 style="font-weight: bold; text-align: center; font-size:45px; color: black;">Contact</h4>
-    <!-- Progress bars / Skills -->
-    <div style="text-align: center; color: black;">
-      <div style="font-weight: bold; font-size:25px;">
-        <br/>
-      <p>Email</p>
-      </div>
-      <a href="Kouis16cy@gmail.com" title="W3.CSS" target="_blank" class="w3-hover-opacity">Kouis16cy@gmail.com</a><br>
-      <div style="font-weight: bold; font-size:25px;">
-      <p>Work Links</p>
-      </div>
-      <a href="https://github.com/nikolaskouis" title="W3.CSS" target="_blank" class="w3-hover-opacity">My Github Account</a><br>
-      <a href="https://gamejolt.com/@EditZz" title="W3.CSS" target="_blank" class="w3-hover-opacity">My GameJolt Account</a><br>
-      <a href="https://editzz.itch.io" title="W3.CSS" target="_blank" class="w3-hover-opacity">My Itch.io Account</a><br>
-      <div style="font-weight: bold; font-size:25px;">
-      <p>Discord</p>
-      </div>
-      <p>EditZz#8967</p>
-      <br/>
-    </div>
-    <div style="font-weight: bold; text-align: center; color: black;">
-      <p>
-        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom"><i class="fa fa-download w3-margin-right"></i><a href="Resume-Nikolas Kouis.pdf" download="CV-Nikolaos Kouis">Download Resume</a>
-        </button>
-      </p>
-
-
-  <div style="background: #3e3e3e;" class="w3-center w3-padding-24">Template by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a><p>--Work in progress--</p></div>
-<!-- End page content -->
-</div>
-
 </header>
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
+<body class="App">
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Software Developer with over 3 years of experience in Java, C#, Unity, and Unreal Engine, and 2 years in React, JavaScript, TypeScript, .NET, and Azure. Skilled in backend development, game development, and cloud solutions, with a strong focus on Microsoft Azure, Serverless APIs, and secure authentication with Azure AD B2C. Passionate about building scalable applications, optimizing CI/CD pipelines, and delivering high-quality software solutions. Adept at problem-solving, collaboration, and creativity, with a proven track record in game development, VR projects, and enterprise software.    </p>
+  </section>
+
+  <section class="section">
+    <h2>Technologies</h2>
+    <ul class="technologies-list">
+      <li>C#</li>
+      <li>.NET</li>
+      <li>React</li>
+      <li>JavaScript</li>
+      <li>TypeScript</li>
+      <li>Azure</li>
+      <li>Unity</li>
+      <li>Oculus VR</li>
+      <li>Java</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <p>BSc Computer Science - University of Essex (2020 - 2023)</p>
+  </section>
+
+  <section class="section">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h4>Software Developer - Amdocs (Vubiquity) | 2023 – Present</h4>
+      <p>
+        Currently working on front-end development using React, JavaScript, and TypeScript. Developing Serverless RESTful APIs with Azure Function Apps
+        and integrating Azure AD B2C for secure user authentication and efficient identity management.
+      </p>
+      <p><b>Skills:</b> JIRA, Azure DevOps, Serverless RESTful APIs, Microsoft Azure, C# .NET, JavaScript, React, TypeScript</p>
+    </div>
+    <div class="experience-item">
+      <h4>Avatar Creation - VR Developer - University of Essex (2023)</h4>
+      <p>
+        Developed a VR Avatar Creation project called "Be Yourself", focused on kids' avatar creation.
+      </p>
+      <p><b>Skills:</b> Unity, C#, VR, Oculus</p>
+    </div>
+    <div class="experience-item">
+      <h4>Software Developer Intern - Amdocs (Vubiquity) | 2022</h4>
+      <p>
+        Worked on Admin UI using React for front-end and .NET for back-end.
+      </p>
+      <p><b>Skills:</b> JIRA, C# .NET, JavaScript, React, TypeScript</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Immerse UK - Finalist for VR Projects (Capstone Project)</li>
+      <li>Amdocs Hackathon - 2nd Place for Web-based Platform Game on Unity</li>
+      <li>Global Game Jam - Participated (Rogue-like FPS Game on Unity)</li>
+      <li>CSEE Society Hackathon - Winner for 2D Platform Game on Unity</li>
+      <li>Published Android puzzle game "Surveillance Job" on Play Store</li>
+      <li>Essex Game Dev Society - Winner for First Person Game on Unity</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div>
+      <h4>Filters</h4>
+      <div id="tag-filter" class="tag-filter"></div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card" data-tags=".NET, React, Javascript, Azure, Work Project, Amdocs">
+        <a>
+          <h4>AdminUI</h4>
+          <h5>Asset Management and User Management</h5>
+          <p>Contributed to AdminUI, an internal project built with React (frontend), .NET (backend), and Azure Cloud. Responsibilities included creating new components, pages, and functionalities, as well as maintaining and optimizing the system. I was also responsible for stage and production deployments. The most significant task was leading the migration from the legacy user authentication system to Azure Active Directory B2C, enhancing security and user management. This experience strengthened my skills in React, .NET, and Azure integration.</p>
+          <div class="tag work">
+            Amdocs
+          </div>
+          <div class="tag tech">
+            React
+          </div>
+          <div class="tag tech">
+            Javascript
+          </div>
+          <div class="tag tech">
+            .NET
+          </div>
+          <div class="tag cloud">
+            Azure
+          </div>
+          <div class="tag type">
+            Work Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags=".NET, React, Typescript, Azure, Work Project, Amdocs">
+        <a>
+          <h4>Customer Service Portal</h4>
+          <h5>Customer Service and User Management</h5>
+          <p>Worked on the Customer Service Portal, a project for customer support and user management, where users could manage accounts, payments, orders, devices, and invite new agents. I’m particularly proud of implementing the login/register and user invite pages using Azure AD B2C. Responsibilities included developing new components, adding features, maintaining the project, and providing ongoing support. The project utilized React, TypeScript for the frontend, .NET for the backend, and Azure Cloud for deployment.</p>
+          <div class="tag work">
+            Amdocs
+          </div>
+          <div class="tag tech">
+            React
+          </div>
+          <div class="tag tech">
+            Typescript
+          </div>
+          <div class="tag tech">
+            .NET
+          </div>
+          <div class="tag cloud">
+            Azure
+          </div>
+          <div class="tag type">
+            Work Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags=".NET, Azure, Work Project, Amdocs">
+        <a>
+          <h4>Content Cloud</h4>
+          <h5>Customer Service and User Management</h5>
+          <p>Contributed to Content Cloud, a backend project built with .NET and utilizing serverless Azure Function Apps with RESTful APIs. Main responsibilities included adding new features, fixing defects, and maintaining the project. I also handled some stage deployments. I’m particularly proud of assisting in the migration from .NET 6 to .NET 8, as well as developing new Function Apps with enhanced functionality and CRUD operations.</p>
+          <div class="tag work">
+            Amdocs
+          </div>
+          <div class="tag tech">
+            .NET
+          </div>
+          <div class="tag cloud">
+            Azure
+          </div>
+          <div class="tag type">
+            Work Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags=".NET, Azure, Work Project, Amdocs">
+        <a>
+          <h4>User Management</h4>
+          <h5>User Management</h5>
+          <p>Worked on User Management, a project built with .NET for the backend and Azure Cloud. The system provided various functionalities such as user invitations, role management, CRUD operations for users, and device management. It also included custom Azure B2C policies to control client B2C systems and handle API management for affiliate ID fetching. My main responsibilities included creating custom policies for new customers, managing AdminUI/CSP B2C connections for new API managements, maintaining the project, and overseeing stage and production deployments.</p>
+          <div class="tag work">
+            Amdocs
+          </div>
+          <div class="tag tech">
+            .NET
+          </div>
+          <div class="tag cloud">
+            Azure
+          </div>
+          <div class="tag type">
+            Work Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="React, Typescript, Work Project, University of Essex">
+        <a>
+          <h4>Avatar Chat Box</h4>
+          <h5>Depression Research Project</h5>
+          <p>Worked on Avatar Chat Box, a research project with Katerina Bourazeri and two other students at the University of Essex, aimed at identifying signs of depression through user interaction. I was responsible for developing the frontend, which included a chatbox simulating chat replies from an avatar, integrating voice recognition (speech-to-text), and implementing multiple text-to-speech voices. I began the project six months after graduation, contributing to the development of a unique and interactive user experience.</p>
+          <div class="tag work">
+            University of Essex
+          </div>
+          <div class="tag tech">
+            React
+          </div>
+          <div class="tag tech">
+            Typescript
+          </div>
+          <div class="tag type">
+            Work Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags=".NET, React, Typescript, Supabase, Personal Project">
+        <a href="https://github.com/nikolaskouis/SportsBooking" target="_blank">
+          <h4>Sports Booking</h4>
+          <h5>Work in Progress</h5>
+          <p>Is a platform that allows users to book sports facilities, view available times, and manage bookings. It includes features like shop management, customer registration, and booking creation, all supported by a backend with authentication and API endpoints. The app is designed to provide a seamless and user-friendly experience for both customers and administrators.</p>
+          <div class="tag tech">
+            .NET
+          </div>
+          <div class="tag tech">
+            React Native (Android Expo)
+          </div>
+          <div class="tag tech">
+            Typescript
+          </div>
+          <div class="tag cloud">
+            Supabase
+          </div>
+          <div class="tag type">
+            Personal Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags=".NET, React, Typescript, Supabase, Personal Project">
+        <a href="https://github.com/nikolaskouis/Katalogos" target="_blank">
+          <h4>Katalogos</h4>
+          <h5>Work in Progress</h5>
+          <p> Katalogos project is a catalog management system that allows users to browse, manage, and track products or services. It includes features like product listing, detailed descriptions, pricing, images, and SKU tracking. The system is designed to facilitate easy catalog browsing and updating, making it ideal for e-commerce or inventory management applications.</p>
+          <div class="tag tech">
+            .NET
+          </div>
+          <div class="tag tech">
+            React
+          </div>
+          <div class="tag tech">
+            Typescript
+          </div>
+          <div class="tag cloud">
+            Supabase
+          </div>
+          <div class="tag type">
+            Website Scraper
+          </div>
+          <div class="tag type">
+            Personal Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, VR, Work Project, University of Essex">
+        <a>
+          <img src="./Images/WorkInProgress.jpeg" alt="Avatar Creation" class="project-image" />
+          <h4>Avatar Creation VR</h4>
+          <h5>VR Avatar Creation Project</h5>
+          <p>I have been hired by the University of Essex Frontrunners to create an Avatar Creation VR project with Unity. With the supervision of Katerina Bourazeri, as the Lead Developer, I need to create a VR environment for kids to be able to create avatars of themselves.</p>
+          <div class="tag work">
+            University of Essex
+          </div>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag tech">
+            VR
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Work Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, Personal Project">
+        <a href="https://play.google.com/store/apps/details?id=com.NikolasKouis.SurveillanceJob" target="_blank">
+          <img src="./Images/SurveillanceJob.jpg" alt="Surveillance Job" class="project-image" />
+          <h4>Surveillance Job - Android</h4>
+          <h5>Play Store published game</h5>
+          <p>Monitoring haunted houses as a Ghost Possession Investigator, your task is to figure out if a ghost is possessing each room you are monitoring or not. Things are not what they seem. The room is changing due to Ghost Possessions and you need to report these changes correctly, if you fail to do so, you die. You need to pay full attention to your job and survive until 06:00, while maintaining your sanity and making sure you report possessions fast enough.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Personal Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, VR, Dissertation Project">
+        <a href="https://sidequestvr.com/app/15085/house-scale-vr" target="_blank">
+          <img src="./Images/HousescaleVR.gif" alt="HousescaleVR" class="project-image" />
+          <h4>Homescale VR</h4>
+          <h5>Capstone Project - Dissertation University Project</h5>
+          <p>House Scale VR is a software that gives a more realistic experience to the user, by calculating the obstacles they have in the real world, and transform them into the game. Using the Passthrough feature of Oculus Quest's 2, the software allows you to see the room you are in, and let you mark the obstacles around your room as in-game objects. Later the game-area is generated and your real life obstacles become in-game objects.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag tech">
+            VR
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Dissertation Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, Game Jam Project">
+        <a href="https://gamejolt.com/games/Ghost_Hunting/753673" target="_blank">
+          <img src="./Images/GhostHunting.JPG" alt="GhostHunting" class="project-image" />
+          <h4>Ghost Hunting</h4>
+          <h5>Essex Game Development Society Winner 2022</h5>
+          <p>Ghost Hunting is a first-person psychological horror where you are a paranormal investigator that need to enter haunted locations filled with paranormal activity and gather as much evidence of the paranormal as you can. You will use your ghost hunting equipment to search for and record evidence of whatever ghost is haunting the location to sell onto a ghost removal team.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Game Jam Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="Unreal Engine, Personal Project">
+        <a href="https://gamejolt.com/games/EscapeTheDarkness/686240" target="_blank">
+          <img src="./Images/The Loop.jpg" alt="The Loop" class="project-image" />
+          <h4>The Loop: Ouroboros</h4>
+          <p>The Loop: Ouroboros is a "PT Styled" Indie Horror Game. You need to investigate the mysterious death of a family that used to live in a creepy house in the mountains. By the time you enter the house you realize that something is wrong and something dark is watching you. Every step you take is different and you need to "break" the loop to get free.</p>
+          <div class="tag engine">
+            Unreal Engine
+          </div>
+          <div class="tag type">
+            Personal Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, Game Jam Project">
+        <a href="https://editzz.itch.io/phobos" target="_blank">
+          <img src="./Images/EscapeTheDarkness.png" alt="Escpae the darkness" class="project-image" />
+          <h4>Escape The Darkness</h4>
+          <h5>Global Game Jam 2022</h5>
+          <p>Escape the darkness is a first person horror/thriller game involving a person trying to defeat a monster while trapped in a laminal space with eerie realities. The game follows the main theme of duality in that it is a symbolization of the Abject, a feeling incurred by treading on a plane between two conceptual borders. For this reason the game occurs in an abandoned hospital maze with repetitive rooms/paths that are never quite the same and involve a character who caries a flashlight in a well lit room while chanting Latin prayers to electric switches.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Game Jam Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, Game Jam Project">
+        <a href="https://gamejolt.com/games/hyperborea/784923" target="_blank">
+          <img src="./Images/Hyperborea.JPG" alt="Hyperborea" class="project-image" />
+          <h4>Hyperborea</h4>
+          <h5>Global Game Jam 2023</h5>
+          <p>This is a Global Game Jam 2023 game. It is a First-Person Shooter game. You start in a randomly generated world with different rooms and each room has enemies and chests. You need to defeat the enemies to unlock the chests. Each chest gives you perks,weapons or gold, that makes you stronger.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Game Jam Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, VR, Game Jam Project">
+        <a href="https://editzz.itch.io/phobos" target="_blank">
+          <img src="./Images/Phobos.jpg" alt="Phobos" class="project-image" />
+          <h4>Phobos VR</h4>
+          <h5>Brackeys Game Jam 2022</h5>
+          <p>"This is not real"; Our game experiences the theme to its utmost by throwing the player into what is almost a state of delirious struggle for survival. The player is expected to be in the game comparing how much it has in common to reality visually as it behaves in a physically and mechanically surreal way.
+            Horror; Between reality and fiction.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag tech">
+            VR
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Game Jam Project
+          </div>
+        </a>
+      </div>
+      <div class="project-card" data-tags="C#, Unity, Game Jam Project">
+        <a href="https://simmer.io/@EditZz/upside-down" target="_blank">
+          <img src="./Images/UpsideDown.jpg" alt="UpsideDown" class="project-image" />
+          <h4>The Upside Down</h4>
+          <h5>Amdocs Hackathon 2022</h5>
+          <p>In the game’s universe, the Alien World collides with the Human World and merges into a mysterious Mirror Dimension. Going through a platform/puzzle system, the protagonist has to survive the Alien invasion and close the portal leading to the human world.</p>
+          <div class="tag tech">
+            C#
+          </div>
+          <div class="tag engine">
+            Unity
+          </div>
+          <div class="tag type">
+            Game Jam Project
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Phone: +357 99920132</p>
+    <p>Email: kouis16cy@gmail.com</p>
+    <p>Location: Limassol, Cyprus</p>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const projects = document.querySelectorAll(".project-card");
+      const tagFilter = document.getElementById("tag-filter");
+      const selectedTags = new Set();
+
+      // Tag color mapping
+      const tagColors = {
+        "C#": "tech", ".NET": "tech", "React": "tech", "Typescript": "tech", "Javascript": "tech","VR": "tech", //Technologies
+        "Azure": "cloud", "Supabase": "cloud",          //Cloud
+        "Unity": "engine", "Unreal Engine": "engine", //Engines
+        "Personal Project": "type", "Game Jam Project": "type", "Dissertation Project": "type", "Work Project": "type", //Types
+        "Amdocs": "work", "University of Essex": "work" //workplace
+      };
+
+      // Create tag buttons using Object.entries() to iterate over the tagColors object
+      Object.entries(tagColors).forEach(([tag, color]) => {
+        const tagButton = document.createElement("button");
+        tagButton.textContent = tag;
+        tagButton.classList.add("tag", color || "tech"); // Assign the correct color to the button
+
+        // Toggle selected state on click
+        tagButton.addEventListener("click", () => {
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+            tagButton.classList.remove("selected");
+          } else {
+            selectedTags.add(tag);
+            tagButton.classList.add("selected");
+          }
+          filterProjects();
+        });
+
+        tagFilter.appendChild(tagButton);
+      });
+
+      function filterProjects() {
+        projects.forEach(project => {
+          const projectTags = project.dataset.tags.split(", ");
+          if (selectedTags.size === 0 || [...selectedTags].every(tag => projectTags.includes(tag))) {
+            project.classList.remove("hidden");
+          } else {
+            project.classList.add("hidden");
+          }
+        });
+      }
+    });
+
+  </script>
 
 </body>
+<footer>
+  <p>&copy; 2025 Nikolas Kouis. All rights reserved.</p>
+</footer>
 </html>
